@@ -1,0 +1,34 @@
+{
+  "name" : "OraOpenSource Dialog",
+  "version" : "3.0.0",
+  "description" : "Dialog",
+  "keywords" : ["dialog", "modal"],
+  "homepage" : "https://github.com/OraOpenSource/apex-plugin-dialog",
+  "bugs" : {
+    "url" : "https://github.com/OraOpenSource/apex-plugin-dialog/issues",
+    "email" : "martin@clarifit.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "OraOpenSource",
+    "email" : "martin@clarifit.com",
+    "url" : "http://www.talkapex.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/OraOpenSource/apex-plugin-dialog.git"
+  },
+  "private" : false,
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["5.0.0"],
+      "plugin" : {
+        "internalName" : "COM.CLARIFIT.APEXPLUGIN.APEX_DIALOG",
+        "type" : "item",
+        "demo" : "TODO",
+        "previewImage" :"TODO"
+      }
+    }
+  }
+}
